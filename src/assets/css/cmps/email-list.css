@@ -1,0 +1,38 @@
+.email-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .email-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .email-info {
+    white-space: nowrap;
+  }
+  
+  .email-info .email-date {
+    margin-right: right;
+    font-weight: bold;
+  }
+  
+  .email-info span {
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  .email-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(5, 5, 5);
+  }
+  
+  .email-actions button:hover {
+    text-decoration: underline;
+  }

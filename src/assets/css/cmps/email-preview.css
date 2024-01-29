@@ -1,0 +1,33 @@
+.email-preview {
+    background: #e96b9509;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 11px #0000002b;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.email-preview h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.email-preview .info {
+    padding: 10px;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.email-preview a {
+    color: rgb(0, 0, 0);
+}
+
+.email-preview:hover .actions {
+    transform: translateY(0);
+}
