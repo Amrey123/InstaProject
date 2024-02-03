@@ -3,7 +3,7 @@ export function AppFooter() {
     return (
         <footer>
             <section className="container">
-                emailRightAmit 2024 &copy;
+                Instagram Amit 2024 &copy;
             </section>
         </footer>
     )

@@ -1,4 +1,4 @@
-.email-filter {
+.story-filter {
     display: flex;
     flex-wrap: wrap;
     margin-block: 20px;
@@ -6,7 +6,7 @@
     
 }
 
-.email-filter > section {
+.story-filter > section {
     display: flex;
     flex-direction: column;
 }

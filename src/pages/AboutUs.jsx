@@ -5,7 +5,7 @@ export function About() {
         <div className="about">
             <h1>About us 
             </h1>
-            <p>This app will show a prototype ability of previewing a list of emails</p>
+            <p>This app will show a prototype ability of previewing a list of stories</p>
         </div>
     )
 }

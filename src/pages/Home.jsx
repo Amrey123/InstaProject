@@ -1,10 +1,10 @@
 import imgUrl from '../assets/imgs/Cat1.webp';
-import { emailService } from '../services/email.service.js';
+import { storyService } from '../services/story.service';
 
-//This comp manages the home page. it is creating the initial list of email and show a welcoming message to the user 
+//This comp manages the home page. it is creating the initial list of story and show a welcoming message to the user 
 export function Home() {
 
-  emailService._createEmails() 
+  storyService._createStories() 
 
   return (
     <section className="home">

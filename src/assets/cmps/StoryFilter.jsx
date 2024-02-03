@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import { emailService } from "/Users/amit.re/Documents/Amit/Studies/Course/Lesson 4/Emails-Project/src/services/email.service"
+import { storyService } from "/Users/amit.re/Documents/Amit/Studies/Course/InstaProject/Insta-Project/src/services/story.service";
 
-//This function will manage the filters of the EmailIndex page. 
-export function EmailFilter ({filterBy, onSetFilter}) {
+//This function will manage the filters of the StoryIndex page. 
+export function StoryFilter ({filterBy, onSetFilter}) {
     const [filterByToEdit, setFilterByToEdit] = useState(filterBy) //This useState hook is used to determine the filters that are being used and their state 
 
     console.log (filterByToEdit)
@@ -25,14 +25,14 @@ export function EmailFilter ({filterBy, onSetFilter}) {
     }, [filterByToEdit])
 
     //Deconstrucsting the filterByToEdit  
-    const {subject,isRead} = filterByToEdit
+    const {text,isRead} = filterByToEdit
 
     return (
         //Using a form for the filters 
-        <form className = "email-filter">
-            {/* Setting a text filter for search over the subject parameter  */}
-            <label htmlFor="subject">Subject</label>
-            <input onChange={handleChange} id="subject" value={subject} name="subject" type="text" />
+        <form className = "story-filter">
+            {/* Setting a text filter for search over the text parameter  */}
+            <label htmlFor="text">Text</label>
+            <input onChange={handleChange} id="text" value={text} name="text" type="text" />
 
             {/* Setting a dropdown filter for choosing between the isRead options which are read, unread and all   */}
             <label htmlFor="isRead">Status</label>

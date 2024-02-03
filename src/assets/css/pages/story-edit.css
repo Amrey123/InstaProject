@@ -1,20 +1,20 @@
-.email-edit {
+.story-edit {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.email-edit form {
+.story-edit form {
     display: flex;
     flex-direction: column;
 }
 
-.email-edit form label {
+.story-edit form label {
     margin-top: 20px;
 }
 
-.email-edit form button {
+.story-edit form button {
     width: 50%;
     margin-top: 40px;
     align-self: center;
